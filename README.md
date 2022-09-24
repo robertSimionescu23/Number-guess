@@ -1,2 +1,2 @@
 # Number-guess
-A simple, sarcastic guess the number game
+A simple, sarcastic "Guess the number game".
