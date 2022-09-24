@@ -13,15 +13,17 @@ public class GuessNumber {
     {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random(System.currentTimeMillis());
-        int max=-1; //the maxim number
+        int max=-1; //the maximum number
         int num=-1; //the number in that interval [0,max]
         int guess; //the number the user guessed
         int tries; //number of tries the user has
 
         //TO CHANGE NUMBER OF TRIES
         int tries_org =3; // variable that controls number of tries
-
+        
+        //A character to verify if another instance starts
         String q = "y";
+        //A boolean to check the win_status
         boolean ok = true;
     
         System.out.println("Hi");
