@@ -15,8 +15,8 @@ public class GuessNumber {
     {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random(System.currentTimeMillis());
-        int max=-1; //the maximum number
-        int num=-1; //the number in that interval [0,max]
+        int max = -1; //the maximum number
+        int num = -1; //the number in that interval [0,max]
         int guess; //the number the user guessed
         int tries; //number of tries the user has
 
@@ -28,7 +28,7 @@ public class GuessNumber {
         //A boolean to check the win_status
         boolean ok = true;
     
-        System.out.println("Hi");
+        System.out.println( "Hi" );
         Thread.sleep(2000);
         System.out.println("Let's play guess the number");
         Thread.sleep(2000);
